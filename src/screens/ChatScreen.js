@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Button } from 'react-native';
 
 class ChatScreen extends Component {
-  static navigationOptions = { title: 'Chat' };
+  static navigationOptions = { title: 'Chat', tabBarLabel: 'Chat' };
 
   static propTypes = {
     navigation: PropTypes.object.isRequired

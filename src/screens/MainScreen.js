@@ -4,7 +4,7 @@ import { Button } from 'react-native';
 
 class MainScreen extends Component {
 
-  static navigationOptions = { title: 'Main'};
+  static navigationOptions = { title: 'Main', tabBarLabel: 'Main'};
 
   static propTypes = {
     navigation: PropTypes.object.isRequired,
